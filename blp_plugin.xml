@@ -1,0 +1,7 @@
+<library path="lib/libreturn_local_planner">
+	<class name ="return_local_planner/ReturnLocalPlannerROS" type ="return_local_planner::ReturnLocalPlannerROS" base_class_type= "nav_core::BaseLocalPlanner">
+		<description>
+			Plugin for BaseLocalPlanner that allows you to follow the global path as it is.
+		</description>
+	</class>
+</library>
